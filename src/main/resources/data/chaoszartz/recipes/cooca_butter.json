@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#M#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "M": {
+            "item": "chaoszartz:bottle_of_cream"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:cocoa_butter",
+        "count": 1
+    }
+}

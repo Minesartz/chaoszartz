@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:ice"
+    },
+    "result": "chaoszartz:ice_chunks",
+    "count": 4
+}

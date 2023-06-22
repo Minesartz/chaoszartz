@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#A#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_nugget"
+        },
+        "A": {
+            "item": "chaoszartz:chocolate_bar"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:golden_coated_chocolate_bar",
+        "count": 4
+    }
+}

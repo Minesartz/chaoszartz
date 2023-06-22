@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "item": "chaoszartz:malt"
+    },
+    "result": "chaoszartz:light_malt",
+    "experience": 0.5,
+    "cookingtime": 200
+}

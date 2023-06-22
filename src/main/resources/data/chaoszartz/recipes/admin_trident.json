@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "DTD",
+        "BBB"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:command_block"
+        },
+        "C": {
+            "item": "minecraft:command_block_minecart"
+        },
+        "D": {
+            "item": "minecraft:dragon_egg"
+        },
+        "T": {
+            "item": "minecraft:trident"
+        },
+        "B": {
+            "item": "minecraft:barrier"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:admin_trident",
+        "count": 1
+    }
+}

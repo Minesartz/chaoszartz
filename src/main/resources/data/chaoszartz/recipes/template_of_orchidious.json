@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "BMB",
+        "#B#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:vine"
+        },
+        "B": {
+            "item": "minecraft:birch_log"
+        },
+        "M": {
+            "item": "minecraft:blue_orchid"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:template_of_orchidious",
+        "count": 1
+    }
+}

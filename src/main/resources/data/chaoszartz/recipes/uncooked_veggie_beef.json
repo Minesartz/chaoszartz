@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #",
+        "BP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:carrot"
+        },
+        "B": {
+            "item": "minecraft:beetroot"
+        },
+        "P": {
+            "item": "minecraft:potato"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:uncooked_veggie_beef",
+        "count": 1
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "chaoszartz:long_bread"
+    },
+    "result": "chaoszartz:mini_bread",
+    "count": 9
+}

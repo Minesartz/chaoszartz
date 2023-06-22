@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "P"
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:fermented_grapes"
+        },
+        "P": {
+            "item": "minecraft:potion"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:bottle_of_wine",
+        "count": 1
+    }
+}

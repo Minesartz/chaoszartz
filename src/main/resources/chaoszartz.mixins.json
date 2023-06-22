@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tv.twitch.minezartz.chaoszartz.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CowEntityMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

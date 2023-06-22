@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:bottle_of_cream"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:butter",
+        "count": 2
+    }
+}

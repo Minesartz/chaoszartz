@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CMC",
+        "SES"
+    ],
+    "key": {
+        "M": {
+            "item": "chaoszartz:bottle_of_milk"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        },
+        "C": {
+            "item": "minecraft:cocoa_beans"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:chocolate_bar",
+        "count": 4
+    }
+}

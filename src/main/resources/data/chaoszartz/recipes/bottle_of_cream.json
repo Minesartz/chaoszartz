@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "P"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:milk_bucket"
+        },
+        "P": {
+            "item": "minecraft:glass_bottle"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:bottle_of_cream",
+        "count": 1
+    }
+}

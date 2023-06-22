@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:diamond_axe"
+    },
+    "result": "chaoszartz:diamond_shard",
+    "experience": 0.5,
+    "cookingtime": 200
+}

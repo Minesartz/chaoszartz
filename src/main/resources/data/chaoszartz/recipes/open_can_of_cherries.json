@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:cherries"
+        },
+        "B": {
+            "item": "chaoszartz:empty_can"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:can_of_cherries",
+        "count": 1
+    }
+}

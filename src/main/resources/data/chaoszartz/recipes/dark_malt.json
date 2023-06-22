@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "chaoszartz:light_malt"
+    },
+    "result": "chaoszartz:dark_malt",
+    "experience": 0.5,
+    "cookingtime": 200
+}

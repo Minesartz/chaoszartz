@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "S",
+        "G"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:apple"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        },
+        "G": {
+            "item": "minecraft:potion"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:bottle_of_apple_juice",
+        "count": 1
+    }
+}

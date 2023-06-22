@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:wheat"
+    },
+    "result": "chaoszartz:flour",
+    "count": 4
+}

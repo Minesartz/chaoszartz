@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "S",
+        "G"
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:lemon"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        },
+        "G": {
+            "item": "minecraft:potion"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:lemonade",
+        "count": 1
+    }
+}

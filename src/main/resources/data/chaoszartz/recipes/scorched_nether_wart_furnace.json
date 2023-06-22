@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:nether_wart"
+    },
+    "result": "chaoszartz:scorched_nether_wart",
+    "experience": 1.1,
+    "cookingtime": 200
+}

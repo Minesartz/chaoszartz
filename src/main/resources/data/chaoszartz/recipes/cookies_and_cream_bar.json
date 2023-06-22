@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#M#",
+        "ESE"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cookie"
+        },
+        "M": {
+            "item": "minecraft:milk_bucket"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:cookies_and_cream_bar",
+        "count": 4
+    }
+}

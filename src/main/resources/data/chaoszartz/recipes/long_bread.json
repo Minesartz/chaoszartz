@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "chaoszartz:long_dough"
+    },
+    "result": "chaoszartz:long_bread",
+    "experience": 0.5,
+    "cookingtime": 200
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S",
+        "L "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brown_mushroom"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        },
+        "L": {
+            "item": "chaoszartz:grapes"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:fermented_grapes",
+        "count": 1
+    }
+}

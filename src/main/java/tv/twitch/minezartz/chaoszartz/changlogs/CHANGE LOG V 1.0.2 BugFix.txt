@@ -1,0 +1,38 @@
+ CHANGE LOG V 1.0.2 BugFix
+
+Changes:
+
+Dough can be placed in 3 slots of the crafting bench anywhere to make long bread!
+
+Golden Pineapple With Now Give The Player Regen 3 (9 Seconds)
+
+Golden Cherry With Now Give The Player Strength 3 (9 Seconds)
+
+
+Added:
+
+- Long Dough (Can Be Smelted To Make Long Bread)
+
+- Ability to Smelt Diamond Tools / Armour in Smelter
+	- Pickaxe
+	- Hoe
+	- Horse Armour
+	- Helmet
+	- Chest plate
+	- Leggings
+	- Boots
+	- Sword
+	- Shovel
+	
+
+- ReAdded Admin Trident (Doesn't Work Server Side)
+
+Removed:
+
+Fixes:
+
+-Fixed Beetroot Spawning From Grass Instead Of Beetroot Seeds
+
+-Flower Not Coming From Wheat
+
+-Wheat Making Sugar In A Stone cutter

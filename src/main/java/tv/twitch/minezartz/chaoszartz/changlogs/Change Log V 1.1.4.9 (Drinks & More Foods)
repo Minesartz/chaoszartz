@@ -1,0 +1,86 @@
+CHANGE LOG V. 1.1.4.9
+
+Additions:
+
+Items:
+- Added Bottle Of Wine | Can be drunken
+- Added Grape Juice  | Can be drunken
+- Added Grapes | Can Be used for Grape Juice and Wine!
+- Added Bottle of Cream | This can be crafted with a bucket of milk in a crafting table or by milking a cow!
+- Added Orange | Can be eaten like an apple! This can also be made into orange juice!
+- Added Lemon | Can be eaten like an apple- but idk if you want to... This can also be made into lemon juice and when mixed with sugar it can make lemonade
+- Added Lemonade | Can be drunken
+- Added Pumpkin Slice | Obtained when shoving a pumpkin in a stone-cutter. Can be used to craft Pumpkin Juice or Pumpkin Cookies!
+- Added Barley | When thrown into a stone cutter you will get 4 malt!
+- Added Malt | Harvested From Barley. Then thrown in a furnace or smelter you can get Light malt.
+- Added Light Malt | Can be smelted in a furnace & smoker to get Dark Malt | Changes intensity of beer
+- Added Dark Malt | Changes intensity of beer by +50%
+- Added Butter | 4 Bottle Of Cream in a crafting table
+- Added Cocoa Butter |  Crafted by mixing Cocoa Beans with Buttermilk
+- Added "The Wattpad Book" | Don't worry about it.
+- Added "Rosebane" | New type of sword (mainly for Minezartz as a test for future weapons for other people) | using a
+- Added "Template Of Orchidious" | When put in a grindstone this can create Rosebane
+- Added Diamond Ring | 1 Ring with a Diamond above it
+- Added Redstone Ring | 1 Ring with an Redstone Dust above it
+- Added Amethyst Ring | 1 Ring with an Amethyst Shard above it
+- Added Ring | 8 Gold in a crafting table
+- Added Emerald Ring | 1 Ring with an Emerald above it
+- Added Quartz Ring | 1 Ring with an Quartz above it
+- Added Copper Ring 1 Ring with a Copper Ingot above it
+- Added Lapiz Ring 1 Ring with a Lapiz above it
+- Added Cooked/Uncooked Veggie Beef
+
+Changes:
+
+- Golden Cherries now give the player Absorption 3 instead of Strength.
+- Beetroot dropping from grass now happens at a 0.0005% chance instead of a 0.005% Chance.
+- Empty Can and Can have been changed from "FOOD AND DRINK" Tab to "INGREDIENTS".
+- Can Of Cherries and Can Of Beans have been changed from behind Milk to behind the spider eyes in the creative inventory.
+- Acacia Trees now drop oranges!
+- Birch Trees now drop lemons!
+- Cakes can now be crafted with Bottles of Milk and Milk Buckets!
+- GOLDEN CHOCOLATE CHANGE! - SUGAR RUSH! Speed 6 for 10 seconds
+- Barley 0.5% Chance drop from grass!
+- Removing Milk From Chocolate Bar and replacing it with 2 Cocoa Butter
+- Replacing the Golden Nugget in the White Chocolate Bar to use 1 Cocoa Butter 2 Milk Buckets
+- Changed texture of Grape Juice to have the blue matching cap like the other Chaoszartz Drinks
+- Human Flesh being eaten taking more hunger, giving hunger effect, giving nausea & poison
+- Carved Pumpkin From placing a pumpkin in stone cutter
+- Bottle of milk now changed to "Bottle Of Cream" and all bottle of milk recipes have been removed
+- White Chocolate Bar now gives you 4 bars like the others do.
+
+Removed:
+- Bread Sword
+- Flowering Azalea No Longer Drop Cherries
+- Moldy Can Of Beans
+- Lemon Juice
+- Bottle of Milk name
+
+Bugs:
+
+
+Fixes:
+- Bottle Of Wine Generating HUGE in hand
+- Grape Juice Generating HUGE in hand
+- Player Being able to eat the glass bottle from Grape Juice
+- Pumpkin Cookie Not Generating a name or texture
+- Grapes not generating a name
+- Dark Chocolate Bar being able to stack to 64
+- Oranges not dropping from acacia leaves.
+- Ice Chunks being the WRONG NAME! GOD DAMN IT! Ice Cubes
+- Cookies and Cream bar only giving you 1 bar instead of 4 like other bars
+- Malt in blast furnace instead of smoker (FUCKING IDIOT-)
+- Bucket being given to the player when drinking Bottled Milk
+- Barley Dropping very rarely.
+- Human Flesh, with a negative hunger value, causes the game to give the hunger back when taking damage healing the player as a result.
+- Player can "Drink" fermented Grapes instead of eating them.
+- All drinkable items not craft-able because the "Water bottle" isn't the correct name? "Potion"
+- Grapes not being edible at all times
+- Upgrading to 1.20 (None of the trees dropping their respective fruit because of a value that was changed between 1.19 and 1.20) any_of & alternative
+- Wine Not Being Craftable (not sure why)
+- Amethyst Ring Texture Broken
+- Diamond Ring Texture Broken
+- Not getting poisoned by Rosebane and instead getting healed
+- Rosebane giving you 1 Hour 23 Min & 19 Sec of poison to 5 seconds
+- Rosebane not adding effect amplifier every hit
+- Template of Orchidious being a broken texture.

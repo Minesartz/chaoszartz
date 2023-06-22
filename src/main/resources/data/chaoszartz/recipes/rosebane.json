@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:item_frame"
+    },
+    "addition": {
+        "item": "minecraft:netherite_sword"
+    },
+    "result": {
+        "item": "chaoszartz:rosebane"
+    }
+}

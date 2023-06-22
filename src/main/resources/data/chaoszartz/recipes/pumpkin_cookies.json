@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        " M "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wheat"
+        },
+        "C": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "M": {
+            "item": "chaoszartz:pumpkin_slice"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:pumpkin_cookie",
+        "count": 8
+    }
+}
