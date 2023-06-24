@@ -2,17 +2,17 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
+            "item": "minecraft:potato"
+        },
+        {
             "item": "minecraft:carrot"
         },
         {
-            "item": "minecraft:beetroot"
-        },
-        {
-            "item": "minecraft:potato"
+            "item": "minecraft:potion"
         }
     ],
     "result": {
-        "item": "chaoszartz:uncooked_veggie_beef",
+        "item": "chaoszartz:bottle_of_vegetable_oil",
         "count": 1
     }
 }

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "chaoszartz:uncooked_veggie_beef"
+    },
+    "result": "chaoszartz:cooked_veggie_beef",
+    "experience": 0.5,
+    "cookingtime": 200
+}

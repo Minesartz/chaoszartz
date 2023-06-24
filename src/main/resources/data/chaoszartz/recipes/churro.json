@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/B/",
+        "PS#",
+        " W "
+    ],
+    "key": {
+        "/": {
+            "item": "chaoszartz:cinnamon"
+        },
+        "B": {
+            "item": "chaoszartz:salt"
+        },
+        "P": {
+            "item": "minecraft:sugar"
+        },
+        "S": {
+            "item": "chaoszartz:bottle_of_vegetable_oil"
+        },
+        "#": {
+            "item": "chaoszartz:flour"
+        },
+        "W": {
+            "item": "minecraft:potion"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:churro",
+        "count": 8
+    }
+}

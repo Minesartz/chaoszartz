@@ -1,11 +1,11 @@
-CHANGE LOG V. 1.1.4.9
+CHANGE LOG V. 1.1.3 - 1.3.14
 
 Additions:
 
 Items:
 - Added Bottle Of Wine | Can be drunken
 - Added Grape Juice  | Can be drunken
-- Added Grapes | Can Be used for Grape Juice and Wine!
+- Added Grapes | Obtained when putting sweet berries in a stone-cutter- dont ask why... (Temp crafting recp)| Can Be used for Grape Juice and Wine!
 - Added Bottle of Cream | This can be crafted with a bucket of milk in a crafting table or by milking a cow!
 - Added Orange | Can be eaten like an apple! This can also be made into orange juice!
 - Added Lemon | Can be eaten like an apple- but idk if you want to... This can also be made into lemon juice and when mixed with sugar it can make lemonade
@@ -18,8 +18,8 @@ Items:
 - Added Butter | 4 Bottle Of Cream in a crafting table
 - Added Cocoa Butter |  Crafted by mixing Cocoa Beans with Buttermilk
 - Added "The Wattpad Book" | Don't worry about it.
-- Added "Rosebane" | New type of sword (mainly for Minezartz as a test for future weapons for other people) | using a
-- Added "Template Of Orchidious" | When put in a grindstone this can create Rosebane
+- Added "Rosebane" | New type of sword (mainly for Minezartz as a test for future weapons for other people) | (Currently Unobtainable)
+- Added "Template Of Orchidious" | When put in a grindstone this can create Rosebane | (Can be crafted but is basically useless)
 - Added Diamond Ring | 1 Ring with a Diamond above it
 - Added Redstone Ring | 1 Ring with an Redstone Dust above it
 - Added Amethyst Ring | 1 Ring with an Amethyst Shard above it
@@ -27,8 +27,19 @@ Items:
 - Added Emerald Ring | 1 Ring with an Emerald above it
 - Added Quartz Ring | 1 Ring with an Quartz above it
 - Added Copper Ring 1 Ring with a Copper Ingot above it
-- Added Lapiz Ring 1 Ring with a Lapiz above it
+- Added Lapis Ring 1 Ring with a Lapis Lazuli above it
 - Added Cooked/Uncooked Veggie Beef
+- Added Vegetable Oil | Crafted With Carrots and Potatoes over a Bottle of Water. | Can craft Churros, Tortillas and more!
+- Added Baked Carrots | Can be cooked in a furnace or a smoker!
+- Added Cherry Pie | Egg, sugar and dough are all you need, with cherries of course!
+- Added Apple Pie | Egg, sugar and dough are all you need, with apples this time!
+- Added Jícama | Drops from grass
+- Added Cinnamon | Obtainable by putting Crimson Stems in a stonecutter
+- Added Churro | Salt, Flour, Sugar, Cinnamon, Bottle of water, vegetable oil all in a crafting table
+- Added Dandelion Tea | Dandelion, Bottle of Water, String, Sugar in a crafting table
+- Added Orchid Tea | Orchid, Bottle of Water, String, Sugar in a crafting table
+- Added Salt | Obtainable By Putting Sand in a stone-cutter
+
 
 Changes:
 
@@ -48,16 +59,19 @@ Changes:
 - Carved Pumpkin From placing a pumpkin in stone cutter
 - Bottle of milk now changed to "Bottle Of Cream" and all bottle of milk recipes have been removed
 - White Chocolate Bar now gives you 4 bars like the others do.
+- Uncooked Veggie Meat crafting recipe can be made anywhere in the crafting table
+- Ice Chunks Now make a glass breaking sound
+- Dandelion & Orchid Tea Textures darkened to seem less like you're attempting to drink putty than tea-
 
 Removed:
 - Bread Sword
 - Flowering Azalea No Longer Drop Cherries
 - Moldy Can Of Beans
 - Lemon Juice
-- Bottle of Milk name
+- Bottle of Milk
 
 Bugs:
-
+- My Mental State breaking
 
 Fixes:
 - Bottle Of Wine Generating HUGE in hand
@@ -84,3 +98,11 @@ Fixes:
 - Rosebane giving you 1 Hour 23 Min & 19 Sec of poison to 5 seconds
 - Rosebane not adding effect amplifier every hit
 - Template of Orchidious being a broken texture.
+- Dandelion Tea texture breaking
+- Salt Generating Really Big in hand
+- Jicama name not correct in lang file
+- Salt Generating Really Big in hand
+- Wine doesn't give nausea effect
+- Grape Juice gets ya drunk
+- Cherry Pie Texture Broken
+- Cherry Pie Recipe Broken

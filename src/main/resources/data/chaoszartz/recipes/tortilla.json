@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Q#",
+        "D#D",
+        " P "
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:flour"
+        },
+        "D": {
+            "item": "chaoszartz:bottle_of_vegetable_oil"
+        },
+        "P": {
+            "item": "minecraft:potion"
+        },
+        "Q": {
+            "item": "chaoszartz:salt"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:tortilla",
+        "count": 1
+    }
+}
