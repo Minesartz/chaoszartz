@@ -18,10 +18,10 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 
-public class NEBItem extends Item {
+public class OilItem extends Item {
     private static final int MAX_USE_TIME = 40;
 
-    public NEBItem(Settings settings) {
+    public OilItem(Settings settings) {
         super(settings);
     }
 
@@ -33,11 +33,6 @@ public class NEBItem extends Item {
         }
 
         if (!world.isClient) {
-            user.removeStatusEffect(StatusEffects.POISON);
-            user.removeStatusEffect(StatusEffects.NAUSEA);
-            user.removeStatusEffect(StatusEffects.HUNGER);
-            user.removeStatusEffect(StatusEffects.WITHER);
-            user.removeStatusEffect(StatusEffects.WEAKNESS);
         }
 
         if (stack.isEmpty()) {
@@ -64,11 +59,11 @@ public class NEBItem extends Item {
     }
 
     public SoundEvent getDrinkSound() {
-        return SoundEvents.ENTITY_GENERIC_DRINK;
+        return SoundEvents.ITEM_HONEY_BOTTLE_DRINK;
     }
 
     public SoundEvent getEatSound() {
-        return SoundEvents.ENTITY_GENERIC_DRINK;
+        return SoundEvents.ITEM_HONEY_BOTTLE_DRINK;
     }
 
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {

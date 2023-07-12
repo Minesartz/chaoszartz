@@ -22,8 +22,6 @@ Items:
 - Uncooked Egg
 - Cooked Egg | Put an uncooked egg in a furnace/smelter
 - Yeast - Water in a bucket, potato in the water, put in a furnace. You get yeast in a bucket.
-- Wine Bottle
-- Mug
 
 Juices:
 
@@ -39,8 +37,6 @@ Foods:
         - Cinnamon Cookies
         - Golden Cookies
     Pie:
-        - Apple Pie
-        - Cherry Pie
         - Chocolate Pie
         - Chicken Pot Pie
 
@@ -53,3 +49,5 @@ Foods:
     Rootbeer
     Putine
     Tea per flower
+   tacos de papa
+   tacos de tacos dorado

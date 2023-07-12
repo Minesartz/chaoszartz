@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "P",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:ring"
+        },
+        "P": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:amethyst_ring",
+        "count": 1
+    }
+}

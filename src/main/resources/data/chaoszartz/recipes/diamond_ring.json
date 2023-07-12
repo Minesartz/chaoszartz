@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "P",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:ring"
+        },
+        "P": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:diamond_ring",
+        "count": 1
+    }
+}
