@@ -1,53 +1,12 @@
-CHANGE LOG V. 1.1.5.0
-
-Additions-
-
-Changes-
+CHANGE LOG V. 1.3.1 (Bugfix)
 
 Fixes-
-
-- //(Removing Milk From Chocolate Recipes and replacing it with Cocoa Butter?)
-- //(Replacing the Golden Nugget in the White Chocolate Bar to use Cocoa Butter)
-- // Cocoa Butter | Crafted by mixing Cocoa Beans with Buttermilk in a brewing stand.
-- //Butter | Crafted when putting a bucket of milk or a bottle of milk in a brewing stand to get Buttermilk. This then can go in a crafting table 3 in a row to make a butter bar.
-
-
-
-
-
-
-Wanted:
-
-Items:
-- Uncooked Egg
-- Cooked Egg | Put an uncooked egg in a furnace/smelter
-- Yeast - Water in a bucket, potato in the water, put in a furnace. You get yeast in a bucket.
-
-Juices:
-
--Egg Nog (Maybe)
-
-Foods:
-
-    Milk products:
-    - Cheese
-
-    Cookies:
-        - White Chocolate Cookies
-        - Cinnamon Cookies
-        - Golden Cookies
-    Pie:
-        - Chocolate Pie
-        - Chicken Pot Pie
-
-    Beer Battered Fish
-        - Cod
-        - Salmon
-
-    Sushi
-    Pumpkin Spice | Poison
-    Rootbeer
-    Putine
-    Tea per flower
-   tacos de papa
-   tacos de tacos dorado
+- Dough now gives the player 4 instead of 1
+- Dough is now crafted with a water bottle instead of a bucket
+- Golden Chocolate has been changed to give the player speed 2 and is crafted with golden ingots instead of golden nuggets. (This my change)
+- Chocolate now can stack to 64 instead of 16
+- Apple, Orange & Grape Juice & Lemonade now stack to 16
+- 1 Milk Bucket now gives 4 bottles of Cream
+- Bottles of Cream can be stacked to 16
+- Both Teas now stack to 16
+- Cherry and Apple Pie now when crafted give 4 instead of 1

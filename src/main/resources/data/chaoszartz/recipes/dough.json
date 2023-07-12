@@ -8,11 +8,11 @@
             "item": "minecraft:egg"
         },
         {
-            "item": "minecraft:water_bucket"
+            "item": "minecraft:potion"
         }
     ],
     "result": {
         "item": "chaoszartz:dough",
-        "count": 1
+        "count": 4
     }
 }

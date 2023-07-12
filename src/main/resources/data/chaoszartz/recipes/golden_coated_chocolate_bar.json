@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:gold_nugget"
+            "item": "minecraft:gold_ingot"
         },
         "A": {
             "item": "chaoszartz:chocolate_bar"
@@ -15,6 +15,6 @@
     },
     "result": {
         "item": "chaoszartz:golden_coated_chocolate_bar",
-        "count": 4
+        "count": 1
     }
 }
