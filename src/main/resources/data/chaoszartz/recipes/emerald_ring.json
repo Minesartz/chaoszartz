@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "P",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:ring"
+        },
+        "P": {
+            "item": "minecraft:emerald"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:emerald_ring",
+        "count": 1
+    }
+}

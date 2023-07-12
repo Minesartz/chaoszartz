@@ -3,7 +3,6 @@ package tv.twitch.minezartz.chaoszartz.item;
 
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -18,10 +17,10 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 
-public class NEBItem extends Item {
+public class CrunchItem extends Item {
     private static final int MAX_USE_TIME = 40;
 
-    public NEBItem(Settings settings) {
+    public CrunchItem(Settings settings) {
         super(settings);
     }
 
@@ -32,43 +31,22 @@ public class NEBItem extends Item {
             serverPlayerEntity.incrementStat(Stats.USED.getOrCreateStat(this));
         }
 
-        if (!world.isClient) {
-            user.removeStatusEffect(StatusEffects.POISON);
-            user.removeStatusEffect(StatusEffects.NAUSEA);
-            user.removeStatusEffect(StatusEffects.HUNGER);
-            user.removeStatusEffect(StatusEffects.WITHER);
-            user.removeStatusEffect(StatusEffects.WEAKNESS);
-        }
-
-        if (stack.isEmpty()) {
-            return new ItemStack(Items.GLASS_BOTTLE);
-        } else {
-            if (user instanceof PlayerEntity && !((PlayerEntity)user).getAbilities().creativeMode) {
-                ItemStack itemStack = new ItemStack(Items.GLASS_BOTTLE);
-                PlayerEntity playerEntity = (PlayerEntity)user;
-                if (!playerEntity.getInventory().insertStack(itemStack)) {
-                    playerEntity.dropItem(itemStack, false);
-                }
-            }
-
-            return stack;
-        }
+        return stack;
     }
-
     public int getMaxUseTime(ItemStack stack) {
         return 40;
     }
 
     public UseAction getUseAction(ItemStack stack) {
-        return UseAction.DRINK;
+        return UseAction.EAT;
     }
 
     public SoundEvent getDrinkSound() {
-        return SoundEvents.ENTITY_GENERIC_DRINK;
+        return SoundEvents.BLOCK_GLASS_BREAK;
     }
 
     public SoundEvent getEatSound() {
-        return SoundEvents.ENTITY_GENERIC_DRINK;
+        return SoundEvents.BLOCK_GLASS_BREAK;
     }
 
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {

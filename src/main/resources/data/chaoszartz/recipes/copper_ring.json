@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "P",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:ring"
+        },
+        "P": {
+            "item": "minecraft:copper_ingot"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:copper_ring",
+        "count": 1
+    }
+}

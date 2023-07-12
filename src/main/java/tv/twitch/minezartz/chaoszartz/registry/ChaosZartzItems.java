@@ -1,6 +1,7 @@
 package tv.twitch.minezartz.chaoszartz.registry;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.CrossbowUser;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
@@ -36,7 +37,7 @@ public class ChaosZartzItems {
     public static final Item GOLDEN_PINEAPPLE = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "golden_pineapple"), new Item(new FabricItemSettings().maxCount(64).food(new FoodComponent.Builder().hunger(4).saturationModifier(1.2F).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION,200, 2), 1.0F).alwaysEdible().build())));
     public static final Item SCORCHED_NETHER_WART = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "scorched_nether_wart"), new Item(new FabricItemSettings().maxCount(64).food(new FoodComponent.Builder().saturationModifier(2).hunger(2).snack().alwaysEdible().build())));
     public static final Item LONG_DOUGH = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "long_dough"), new Item(new FabricItemSettings().maxCount(64).food(new FoodComponent.Builder().hunger(1).saturationModifier(0F).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA,300, 3), 1.0F).statusEffect(new StatusEffectInstance(StatusEffects.HUNGER,300, 3), 1.0F).alwaysEdible().build())));
-    public static final BottleItem BOTTLE_OF_WINE = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "bottle_of_wine"), new BottleItem(new FabricItemSettings().maxCount(1).food(new FoodComponent.Builder().hunger(0).saturationModifier(0F).build())));
+    public static final BottleItem BOTTLE_OF_WINE = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "bottle_of_wine"), new BottleItem(new FabricItemSettings().maxCount(1).food(new FoodComponent.Builder().hunger(0).saturationModifier(0F).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA,400,3), 1.0F).alwaysEdible().build())));
     public static final BottleItem BOTTLE_OF_GRAPE_JUICE = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "bottle_of_grape_juice"), new BottleItem(new FabricItemSettings().maxCount(1).food(new FoodComponent.Builder().hunger(0).saturationModifier(0F).build())));
     public static final Item PUMPKIN_COOKIE = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "pumpkin_cookie"), new Item(new FabricItemSettings().maxCount(64).food(FoodComponents.COOKIE)));
     public static final Item GRAPES = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "grapes"), new Item(new FabricItemSettings().maxCount(64).food(new FoodComponent.Builder().hunger(1).saturationModifier(1).snack().alwaysEdible().build())));
@@ -46,7 +47,7 @@ public class ChaosZartzItems {
     public static final BottleItem BOTTLE_OF_CREAM = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "bottle_of_cream"), new BottleItem(new FabricItemSettings().maxCount(1).food(new FoodComponent.Builder().hunger(0).saturationModifier(0F).build())));
     public static final BottleItem LEMONADE = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "lemonade"), new BottleItem(new FabricItemSettings().maxCount(1).food(new FoodComponent.Builder().hunger(0).saturationModifier(0F).build())));
     public static final Item PUMPKIN_SLICE = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "pumpkin_slice"), new Item(new FabricItemSettings().maxCount(64).food(FoodComponents.MELON_SLICE)));
-    public static final Item ICE_CHUNKS = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "ice_chunks"), new Item(new FabricItemSettings().maxCount(64).food(new FoodComponent.Builder().alwaysEdible().snack().build())));
+    public static final CrunchItem ICE_CHUNKS = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "ice_chunks"), new CrunchItem(new FabricItemSettings().maxCount(64).food(new FoodComponent.Builder().alwaysEdible().snack().build())));
     public static final Item BARLEY = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "barley"), new Item(new FabricItemSettings().maxCount(64)));
     public static final Item MALT = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "malt"), new Item(new FabricItemSettings().maxCount(64)));
     public static final Item LIGHT_MALT = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "light_malt"), new Item(new FabricItemSettings().maxCount(64)));
@@ -68,4 +69,15 @@ public class ChaosZartzItems {
     public static final Item TEMPLATE_OF_ORCHIDIOUS = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "template_of_orchidious"), new Item(new FabricItemSettings().maxCount(1)));
     public static final Item COOKED_VEGGIE_BEEF = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "cooked_veggie_beef"), new Item(new FabricItemSettings().maxCount(64).food(FoodComponents.COOKED_BEEF)));
     public static final Item UNCOOKED_VEGGIE_BEEF = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "uncooked_veggie_beef"), new Item(new FabricItemSettings().maxCount(64).food(FoodComponents.BEEF)));
+    public static final Item BAKED_CARROT = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "baked_carrot"), new Item(new FabricItemSettings().maxCount(64).food(FoodComponents.BAKED_POTATO)));
+    public static final Item APPLE_PIE = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "apple_pie"), new Item(new FabricItemSettings().maxCount(64).food(FoodComponents.PUMPKIN_PIE)));
+    public static final Item CHERRY_PIE = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "cherry_pie"), new Item(new FabricItemSettings().maxCount(64).food(FoodComponents.PUMPKIN_PIE)));
+    public static final Item JICAMA = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "jicama"), new Item(new FabricItemSettings().maxCount(64).food(FoodComponents.BEETROOT)));
+    public static final OilItem BOTTLE_OF_VEGETABLE_OIL = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "bottle_of_vegetable_oil"), new OilItem(new FabricItemSettings().maxCount(1).food(new FoodComponent.Builder().hunger(0).saturationModifier(0F).build())));
+    public static final Item SALT = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "salt"), new Item(new FabricItemSettings().maxCount(64).food(new FoodComponent.Builder().hunger(1).saturationModifier(1).statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 100, 3), 1.0F ).alwaysEdible().build())));
+    public static final Item CHURRO = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "churro"), new Item(new FabricItemSettings().maxCount(64).food(FoodComponents.BREAD)));
+    public static final Item CINNAMON = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "cinnamon"), new Item(new FabricItemSettings().maxCount(64).food(new FoodComponent.Builder().hunger(1).saturationModifier(1).snack().alwaysEdible().build())));
+    public static final BottleItem DANDELION_TEA = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "dandelion_tea"), new BottleItem(new FabricItemSettings().maxCount(1).food(new FoodComponent.Builder().hunger(0).saturationModifier(0F).build())));
+    public static final BottleItem ORCHID_TEA = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "orchid_tea"), new BottleItem(new FabricItemSettings().maxCount(1).food(new FoodComponent.Builder().hunger(0).saturationModifier(0F).build())));
+    public static final Item TORTILLA = Registry.register(Registries.ITEM, new Identifier(ChaosZartz.MODID, "tortilla"), new Item(new FabricItemSettings().maxCount(64).food(FoodComponents.BREAD)));
 }

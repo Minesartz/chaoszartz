@@ -54,8 +54,19 @@
   "item.chaoszartz.amethyst_ring" : "Amethyst Ring",
   "item.chaoszartz.quartz_ring" : "Quartz Ring",
   "item.chaoszartz.copper_ring" : "Copper Ring",
-  "item.chaoszartz.lapiz_ring" : "Lapis Ring",
+  "item.chaoszartz.lapis_ring" : "Lapis Ring",
   "item.chaoszartz.template_of_orchidious" : "Template Of Orchidious",
   "item.chaoszartz.uncooked_veggie_beef" : "Uncooked Veggie Beef",
-  "item.chaoszartz.cooked_veggie_beef" : "Cooked Veggie Beef"
+  "item.chaoszartz.cooked_veggie_beef" : "Cooked Veggie Beef",
+  "item.chaoszartz.baked_carrot" : "Baked Carrot",
+  "item.chaoszartz.apple_pie" : "Apple Pie",
+  "item.chaoszartz.cherry_pie" : "Cherry Pie",
+  "item.chaoszartz.churro" : "Churro",
+  "item.chaoszartz.cinnamon" : "Cinnamon",
+  "item.chaoszartz.tortilla" : "Tortilla",
+  "item.chaoszartz.jicama" : "Jícama",
+  "item.chaoszartz.bottle_of_vegetable_oil" : "Bottle Of Vegetable Oil",
+  "item.chaoszartz.salt" : "Salt",
+  "item.chaoszartz.orchid_tea" : "Orchid Tea",
+  "item.chaoszartz.dandelion_tea" : "Dandelion Tea"
 }
