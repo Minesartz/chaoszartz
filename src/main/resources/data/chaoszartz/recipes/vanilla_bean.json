@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:azure_bluet"
+    },
+    "result": "chaoszartz:vanilla_bean",
+    "count": 2
+}

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#A",
+        "SC"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sugar"
+        },
+        "A": {
+            "item": "minecraft:egg"
+        },
+        "S": {
+            "item": "chaoszartz:dough"
+        },
+        "C": {
+            "item": "chaoszartz:lime"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:keylime_pie",
+        "count": 4
+    }
+}

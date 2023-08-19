@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#G"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blue_dye"
+        },
+        "G": {
+            "item": "chaoszartz:bottle_of_caramelized_sugar"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:blue_candy",
+        "count": 8
+    }
+}

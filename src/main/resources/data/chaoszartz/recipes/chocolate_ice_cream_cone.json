@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:ice_cream_cone"
+        },
+        "B": {
+            "item": "chaoszartz:bowl_of_chocolate_ice_cream"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:chocolate_ice_cream",
+        "count": 8
+    }
+}

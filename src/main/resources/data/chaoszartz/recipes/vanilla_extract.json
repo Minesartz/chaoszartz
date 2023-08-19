@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "P"
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:vanilla_bean"
+        },
+        "P": {
+            "item": "chaoszartz:bottle_of_vodka"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:bottle_of_vanilla_extract",
+        "count": 1
+    }
+}

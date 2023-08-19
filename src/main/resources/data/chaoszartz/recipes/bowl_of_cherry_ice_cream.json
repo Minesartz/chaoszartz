@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#R",
+        "GS",
+        "B "
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:bottle_of_cream"
+        },
+        "R": {
+            "item": "minecraft:sugar"
+        },
+        "G": {
+            "item": "chaoszartz:salt"
+        },
+        "S": {
+            "item": "chaoszartz:cherries"
+        },
+        "B": {
+            "item": "minecraft:bowl"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:bowl_of_cherry_ice_cream",
+        "count": 1
+    }
+}

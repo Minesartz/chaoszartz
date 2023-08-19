@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "P"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:potato"
+        },
+        "P": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:potato_in_a_bucket",
+        "count": 1
+    }
+}

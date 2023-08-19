@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:stacked_paper"
+        }
+    },
+    "result": {
+        "item": "minecraft:paper",
+        "count": 9
+    }
+}

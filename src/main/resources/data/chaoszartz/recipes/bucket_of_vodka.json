@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "chaoszartz:potato_in_a_bucket"
+    },
+    "result": "chaoszartz:bucket_of_vodka",
+    "experience": 0.5,
+    "cookingtime": 200
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#K#",
+        "#T#",
+        "#G#"
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:rice"
+        },
+        "K": {
+            "item": "minecraft:kelp"
+        },
+        "T": {
+            "item": "chaoszartz:cooked_tropical_fish"
+        },
+        "G": {
+            "item": "chaoszartz:bottle_of_vegetable_oil"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:tropical_sushi",
+        "count": 4
+    }
+}

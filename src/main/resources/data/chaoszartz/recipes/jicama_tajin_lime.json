@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# ",
+        "PA",
+        "B "
+    ],
+    "key": {
+        "#": {
+            "item": "chaoszartz:tajin_powder"
+        },
+        "P": {
+            "item": "chaoszartz:jicama"
+        },
+        "A": {
+            "item": "chaoszartz:lime"
+        },
+        "B": {
+            "item": "minecraft:bowl"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:jicama_tajin_lime",
+        "count": 1
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:pumpkin"
+    },
+    "result": "chaoszartz:pumpkin_spice",
+    "count": 12
+}

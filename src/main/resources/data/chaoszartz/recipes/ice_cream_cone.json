@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#g#",
+        "PGT",
+        "VRV"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "g": {
+            "item": "chaoszartz:butter"
+        },
+        "P": {
+            "item": "chaoszartz:bottle_of_cream"
+        },
+        "G": {
+            "item": "chaoszartz:salt"
+        },
+        "T": {
+            "item": "chaoszartz:bottle_of_vanilla_extract"
+        },
+        "V": {
+            "item": "minecraft:sugar"
+        },
+        "R": {
+            "item": "chaoszartz:flour"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:ice_cream_cone",
+        "count": 16
+    }
+}

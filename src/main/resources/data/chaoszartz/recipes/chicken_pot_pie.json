@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C",
+        "SG"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:potato"
+        },
+        "C": {
+            "item": "minecraft:cooked_chicken"
+        },
+        "S": {
+            "item": "chaoszartz:dough"
+        },
+        "G": {
+            "item": "minecraft:carrot"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:chicken_pot_pie",
+        "count": 4
+    }
+}

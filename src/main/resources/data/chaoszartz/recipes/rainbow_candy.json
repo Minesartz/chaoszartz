@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#OY",
+        "PGQ",
+        "SBC"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:red_dye"
+        },
+        "O": {
+            "item": "minecraft:orange_dye"
+        },
+        "Y": {
+            "item": "minecraft:yellow_dye"
+        },
+        "P": {
+            "item": "minecraft:pink_dye"
+        },
+        "G": {
+            "item": "chaoszartz:bottle_of_caramelized_sugar"
+        },
+        "Q": {
+            "item": "minecraft:green_dye"
+        },
+        "S": {
+            "item": "minecraft:purple_dye"
+        },
+        "B": {
+            "item": "minecraft:blue_dye"
+        },
+        "C": {
+            "item": "minecraft:cyan_dye"
+        }
+    },
+    "result": {
+        "item": "chaoszartz:rainbow_candy",
+        "count": 8
+    }
+}

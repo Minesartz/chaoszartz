@@ -1,0 +1,121 @@
+CHANGE LOG V. 1.4.0
+
+Additions:
+
+Items:
+- Candies - Crafted with each type of dye and a bottle of "Caramelized Sugar in a Bottle." Will Give 8 Candies (One per 1 sugar crafted into Bottle of Sugar)
+    - Red Candy
+    - Orange Candy
+    - Yellow Candy
+    - Lime Candy
+    - Green Candy
+    - Cyan Candy
+    - Light Blue Candy
+    - Blue Candy
+    - Purple Candy
+    - Magenta Candy
+    - Pink Candy
+    - Brown Candy
+    - Black Candy
+    - Gray Candy
+    - Light Gray Candy
+    - White Candy
+    - Rainbow Candy | Crafted with Red, Orange, Yellow, Green, Cyan, Blue, Purple & Pink Dye around 1 bottle of "Bottle Of Caramelized Sugar" ) Gives you 8)
+
+Sushi
+- Cod Sushi | Crafted with 1 Rice, 6 Kelp, 1 vegetable Oil and 1 Cooked Cod
+- Salmon Sushi | Crafted with 1 Rice, 6 Kelp, 1 vegetable Oil and 1 Cooked Salmon
+- Tropical Sushi | Crafted with 1 Rice, 6 Kelp, 1 vegetable Oil and 1 Cooked Tropical Fish
+- Kelp Wrapped Cod Sushi | Crafted with 1 Rice, 6 Kelp, 1 vegetable Oil and 1 Cooked Cod
+- Kelp Wrapped Salmon Sushi | Crafted with 1 Rice, 6 Kelp, 1 vegetable Oil and 1 Cooked Salmon
+- Kelp Wrapped Tropical Sushi | Crafted with 1 Rice, 6 Kelp, 1 vegetable Oil and 1 Cooked Tropical Fish
+- Chicken Pot Pie | Crafted with 1 Dough 1 Cooked Chicken 1 Carrot and 1 Potato
+
+Pie
+- Keylime Pie | Crafted with 1 Sugar, 1 Egg, Dough, and a Lime
+- Chocolate Pie | 1 Chocolate Bar, 1 Sugar, 1 Egg & 1 Dough to make 4 Chocolate Pie!
+
+New Tree / Grass Drops!
+- Limes | Drop from Dark Oak Leaves with a  0.008% chance!
+- Tomatoes | Have a 0.04 % chance of dropping from grass
+
+Process Of Making Vanilla Extract!
+- Potato in a Bucket | Can be put in a furnace or smoker to create a bucket of Vodka
+- Bucket of Vodka | Can be drunken or put in a crafting table!
+- Bottle of Vodka | You will get 4 of these when putting a Bucket of Vodka & 4 Bottles in a crafting table!
+- Vanilla Bean | Can be obtained when an Azure Bluet is placed in a stone_cutter!
+- Vanilla Extract | Crafted with 1 bottle of Vodka and 1 Vanilla Bean
+
+Ice Cream!
+- Vanilla Ice Cream
+- Chocolate Ice Cream
+- Cherry Ice Cream
+- Ice Cream Cone
+- Bowl of Vanilla Ice Cream
+- Bowl of Chocolate Ice Cream
+- Bowl of Cherry Ice Cream
+
+New Other Stouff!
+- Cooked Tropical Fish | Tropical Fish can now be cooked in a smoker and furnace!
+- Stacked Paper | Crafted by putting 9 paper in a crafting table | Can stack up to 64 (Very good for condensing paper storage)
+- Rice | Obtained from Seagrass .5% Drop Chance
+- Caramelized Sugar In A Bottle | Crafted by putting a "Bottle of Sugar" In a furnace/smoker
+- Bottle of Sugar | Crafted with a Bottle and 8 Sugar
+- Tajin Jicama & Lime | Crafted with 1 Tajin Poweder, 1 Jicama and 1 Lime!! Delicious!
+- Tajin Spice | Obtained when a poppy is placed in a stone cutter!
+- Pumpkin Spice | Obtained when placing a pumpkin in a stone cutter | You'll get 12! *This has no use yet.. or does it >=)
+
+Changes:
+
+Loot Tables
+- Seagrass now has a .5% chance to drop rice
+
+Texture
+- Changed Dandelion Tea texture to look more golden brown instead of dark terracotta.
+- Changed Orchid Tea texture to look like a brighter blue instead of dark terracotta
+- Made Orange Orangeier
+
+Crafting
+- Crafting Butter Now gives you 4 instead of 2
+- Crafting Coco Butter now gives you 4 instead of 1
+- Gathering Salt is slightly easier! You will now obtain 4 salt from 1 block of sand instead of just 1 per!
+
+- Sushi was changed to be Cod Sushi for more variety with Fish
+- Golden Coated Chocolate Bar now gives the player speed 3
+- White chocolate takes 2 bottles of cream instead of milk buckets
+- Cookies and cream chocolate bar now takes a bottle of cream instead of milk
+
+Creative
+- Switched Cooked & Uncooked Veggie beef in creative inventory
+- Human Flesh now gives the player wither 4, Slowness 2 & Blindness when eaten.
+
+Removed:
+- Dark Gray Texture (Since Dark Gray Dye doesn't exist- Idiot-)
+- Can, Open Can, Can Of Beans & Can of Cherries have been removed from the mod
+- Bucket of Potato Extract | Simpler if this isn't in the process
+
+Fixes:
+- Lime Candy Texture Is Broken
+- Gray Candy Texture Is The Purple Candy
+- Dark Gray Candy Texture Existed - Changed to be Gray Texture
+- Gray Candy Texture Changed to be Light Gray Candy Texture
+- Light Gray Candy Texture Changed to be "White Candy" Texture
+- No Texture For "Bottle Of Caramelized Sugar"
+- Stacked Paper only Stacks to 16
+- Attempting to craft "Bottle of Sugar" a sugarcane appeared instead of the actual recipe
+- No recipe to turn "Stacked Paper" Back into Paper-
+- Cherry Pie Texture took place of the "Chicken Pot Pie Texture"
+- Broken textures for Kelp Wrapped Cod & Salmon
+- Salmon sushi- nothing else to say there-
+- Sushi Crafting recipes taking sugar instead of rice
+- Tajin Powder Texture Broken
+- Pumpkin Spice Texture Broken
+- Bottle Of Vanilla Extract Texture Broken
+- Bottle of Vanilla Extract name is broken
+- Jicama Tajin & Lime recipe not working
+- Ice Cream Recipe Broken
+- Bucket of Vodka Gets eaten in the Bottle of Vodka Recipe | Have fun drinking iron!
+- Salmon & Cod Sushi recipes broken
+- Candy Not Always Edible
+- Recipe For Pumpkin Spice Missing
+- When crafting the potato in a bucket the bucket DOESN'T LEAVE WITH THE WATER AND POTATO- thus it dupes the bucket-

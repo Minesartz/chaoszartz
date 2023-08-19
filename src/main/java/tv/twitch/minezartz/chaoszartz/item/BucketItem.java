@@ -27,9 +27,9 @@ import net.minecraft.world.event.GameEvent;
 import org.jetbrains.annotations.Nullable;
 
 public class BucketItem extends Item implements FluidModificationItem {
-    private final Fluid fluid;
+    private Fluid fluid = null;
 
-    public BucketItem(Fluid fluid, Item.Settings settings) {
+    public BucketItem(Settings settings) {
         super(settings);
         this.fluid = fluid;
     }
